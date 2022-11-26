@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03896CFB2932535C00E4D423 /* Susquehanna_NHAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03896CFA2932535C00E4D423 /* Susquehanna_NHAApp.swift */; };
+		03896CFD2932535C00E4D423 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03896CFC2932535C00E4D423 /* ContentView.swift */; };
+		03896CFF2932535F00E4D423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03896CFE2932535F00E4D423 /* Assets.xcassets */; };
+		03896D032932535F00E4D423 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03896D022932535F00E4D423 /* Preview Assets.xcassets */; };
+		03896D0D2932536000E4D423 /* Susquehanna_NHATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03896D0C2932536000E4D423 /* Susquehanna_NHATests.swift */; };
+		03896D172932536000E4D423 /* Susquehanna_NHAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03896D162932536000E4D423 /* Susquehanna_NHAUITests.swift */; };
+		03896D192932536000E4D423 /* Susquehanna_NHAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03896D182932536000E4D423 /* Susquehanna_NHAUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03896D092932536000E4D423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03896CEF2932535C00E4D423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03896CF62932535C00E4D423;
+			remoteInfo = "Susquehanna NHA";
+		};
+		03896D132932536000E4D423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03896CEF2932535C00E4D423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03896CF62932535C00E4D423;
+			remoteInfo = "Susquehanna NHA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03896CF72932535C00E4D423 /* Susquehanna NHA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Susquehanna NHA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03896CFA2932535C00E4D423 /* Susquehanna_NHAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Susquehanna_NHAApp.swift; sourceTree = "<group>"; };
+		03896CFC2932535C00E4D423 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03896CFE2932535F00E4D423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03896D002932535F00E4D423 /* Susquehanna_NHA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Susquehanna_NHA.entitlements; sourceTree = "<group>"; };
+		03896D022932535F00E4D423 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03896D082932536000E4D423 /* Susquehanna NHATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Susquehanna NHATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03896D0C2932536000E4D423 /* Susquehanna_NHATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Susquehanna_NHATests.swift; sourceTree = "<group>"; };
+		03896D122932536000E4D423 /* Susquehanna NHAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Susquehanna NHAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03896D162932536000E4D423 /* Susquehanna_NHAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Susquehanna_NHAUITests.swift; sourceTree = "<group>"; };
+		03896D182932536000E4D423 /* Susquehanna_NHAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Susquehanna_NHAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03896CF42932535C00E4D423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03896D052932536000E4D423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03896D0F2932536000E4D423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03896CEE2932535C00E4D423 = {
+			isa = PBXGroup;
+			children = (
+				03896CF92932535C00E4D423 /* Susquehanna NHA */,
+				03896D0B2932536000E4D423 /* Susquehanna NHATests */,
+				03896D152932536000E4D423 /* Susquehanna NHAUITests */,
+				03896CF82932535C00E4D423 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03896CF82932535C00E4D423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03896CF72932535C00E4D423 /* Susquehanna NHA.app */,
+				03896D082932536000E4D423 /* Susquehanna NHATests.xctest */,
+				03896D122932536000E4D423 /* Susquehanna NHAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03896CF92932535C00E4D423 /* Susquehanna NHA */ = {
+			isa = PBXGroup;
+			children = (
+				03896CFA2932535C00E4D423 /* Susquehanna_NHAApp.swift */,
+				03896CFC2932535C00E4D423 /* ContentView.swift */,
+				03896CFE2932535F00E4D423 /* Assets.xcassets */,
+				03896D002932535F00E4D423 /* Susquehanna_NHA.entitlements */,
+				03896D012932535F00E4D423 /* Preview Content */,
+			);
+			path = "Susquehanna NHA";
+			sourceTree = "<group>";
+		};
+		03896D012932535F00E4D423 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				03896D022932535F00E4D423 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03896D0B2932536000E4D423 /* Susquehanna NHATests */ = {
+			isa = PBXGroup;
+			children = (
+				03896D0C2932536000E4D423 /* Susquehanna_NHATests.swift */,
+			);
+			path = "Susquehanna NHATests";
+			sourceTree = "<group>";
+		};
+		03896D152932536000E4D423 /* Susquehanna NHAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03896D162932536000E4D423 /* Susquehanna_NHAUITests.swift */,
+				03896D182932536000E4D423 /* Susquehanna_NHAUITestsLaunchTests.swift */,
+			);
+			path = "Susquehanna NHAUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03896CF62932535C00E4D423 /* Susquehanna NHA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03896D1C2932536000E4D423 /* Build configuration list for PBXNativeTarget "Susquehanna NHA" */;
+			buildPhases = (
+				03896CF32932535C00E4D423 /* Sources */,
+				03896CF42932535C00E4D423 /* Frameworks */,
+				03896CF52932535C00E4D423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Susquehanna NHA";
+			productName = "Susquehanna NHA";
+			productReference = 03896CF72932535C00E4D423 /* Susquehanna NHA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03896D072932536000E4D423 /* Susquehanna NHATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03896D1F2932536000E4D423 /* Build configuration list for PBXNativeTarget "Susquehanna NHATests" */;
+			buildPhases = (
+				03896D042932536000E4D423 /* Sources */,
+				03896D052932536000E4D423 /* Frameworks */,
+				03896D062932536000E4D423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03896D0A2932536000E4D423 /* PBXTargetDependency */,
+			);
+			name = "Susquehanna NHATests";
+			productName = "Susquehanna NHATests";
+			productReference = 03896D082932536000E4D423 /* Susquehanna NHATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03896D112932536000E4D423 /* Susquehanna NHAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03896D222932536000E4D423 /* Build configuration list for PBXNativeTarget "Susquehanna NHAUITests" */;
+			buildPhases = (
+				03896D0E2932536000E4D423 /* Sources */,
+				03896D0F2932536000E4D423 /* Frameworks */,
+				03896D102932536000E4D423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03896D142932536000E4D423 /* PBXTargetDependency */,
+			);
+			name = "Susquehanna NHAUITests";
+			productName = "Susquehanna NHAUITests";
+			productReference = 03896D122932536000E4D423 /* Susquehanna NHAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03896CEF2932535C00E4D423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					03896CF62932535C00E4D423 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					03896D072932536000E4D423 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 03896CF62932535C00E4D423;
+					};
+					03896D112932536000E4D423 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 03896CF62932535C00E4D423;
+					};
+				};
+			};
+			buildConfigurationList = 03896CF22932535C00E4D423 /* Build configuration list for PBXProject "Susquehanna NHA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03896CEE2932535C00E4D423;
+			productRefGroup = 03896CF82932535C00E4D423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03896CF62932535C00E4D423 /* Susquehanna NHA */,
+				03896D072932536000E4D423 /* Susquehanna NHATests */,
+				03896D112932536000E4D423 /* Susquehanna NHAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03896CF52932535C00E4D423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03896D032932535F00E4D423 /* Preview Assets.xcassets in Resources */,
+				03896CFF2932535F00E4D423 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03896D062932536000E4D423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03896D102932536000E4D423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03896CF32932535C00E4D423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03896CFD2932535C00E4D423 /* ContentView.swift in Sources */,
+				03896CFB2932535C00E4D423 /* Susquehanna_NHAApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03896D042932536000E4D423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03896D0D2932536000E4D423 /* Susquehanna_NHATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03896D0E2932536000E4D423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03896D172932536000E4D423 /* Susquehanna_NHAUITests.swift in Sources */,
+				03896D192932536000E4D423 /* Susquehanna_NHAUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03896D0A2932536000E4D423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03896CF62932535C00E4D423 /* Susquehanna NHA */;
+			targetProxy = 03896D092932536000E4D423 /* PBXContainerItemProxy */;
+		};
+		03896D142932536000E4D423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03896CF62932535C00E4D423 /* Susquehanna NHA */;
+			targetProxy = 03896D132932536000E4D423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03896D1A2932536000E4D423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03896D1B2932536000E4D423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		03896D1D2932536000E4D423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Susquehanna NHA/Susquehanna_NHA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Susquehanna NHA/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ednovak.Susquehanna-NHA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03896D1E2932536000E4D423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Susquehanna NHA/Susquehanna_NHA.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Susquehanna NHA/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ednovak.Susquehanna-NHA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03896D202932536000E4D423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ednovak.Susquehanna-NHATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Susquehanna NHA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Susquehanna NHA";
+			};
+			name = Debug;
+		};
+		03896D212932536000E4D423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ednovak.Susquehanna-NHATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Susquehanna NHA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Susquehanna NHA";
+			};
+			name = Release;
+		};
+		03896D232932536000E4D423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ednovak.Susquehanna-NHAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Susquehanna NHA";
+			};
+			name = Debug;
+		};
+		03896D242932536000E4D423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.ednovak.Susquehanna-NHAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Susquehanna NHA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03896CF22932535C00E4D423 /* Build configuration list for PBXProject "Susquehanna NHA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03896D1A2932536000E4D423 /* Debug */,
+				03896D1B2932536000E4D423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03896D1C2932536000E4D423 /* Build configuration list for PBXNativeTarget "Susquehanna NHA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03896D1D2932536000E4D423 /* Debug */,
+				03896D1E2932536000E4D423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03896D1F2932536000E4D423 /* Build configuration list for PBXNativeTarget "Susquehanna NHATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03896D202932536000E4D423 /* Debug */,
+				03896D212932536000E4D423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03896D222932536000E4D423 /* Build configuration list for PBXNativeTarget "Susquehanna NHAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03896D232932536000E4D423 /* Debug */,
+				03896D242932536000E4D423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03896CEF2932535C00E4D423 /* Project object */;
+}
