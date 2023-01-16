@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		031056EC295B5C8D007DF247 /* BridgeStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031056EB295B5C8D007DF247 /* BridgeStatusView.swift */; };
+		031056EE295B63A0007DF247 /* BridgeStatusNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031056ED295B63A0007DF247 /* BridgeStatusNetworkRequest.swift */; };
+		031765AD29672AC100A69310 /* PlacemarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031765AC29672AC100A69310 /* PlacemarkDetailView.swift */; };
+		032E2D51296907C7008184A2 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032E2D50296907C7008184A2 /* ReportView.swift */; };
+		034F5CAF29592B3100F2F449 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034F5CAE29592B3100F2F449 /* EventsView.swift */; };
+		034F5CB1295933E100F2F449 /* events.html in Resources */ = {isa = PBXBuildFile; fileRef = 034F5CB0295933E100F2F449 /* events.html */; };
+		035CB8E829686F8E005E1E93 /* NotificationNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035CB8E729686F8E005E1E93 /* NotificationNetworkRequest.swift */; };
+		035CB8EA296870CA005E1E93 /* NotificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035CB8E9296870CA005E1E93 /* NotificationListView.swift */; };
+		036BB0C629651660003171FB /* KMLNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036BB0C529651660003171FB /* KMLNetworkRequest.swift */; };
 		03896CFB2932535C00E4D423 /* Susquehanna_NHAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03896CFA2932535C00E4D423 /* Susquehanna_NHAApp.swift */; };
-		03896CFD2932535C00E4D423 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03896CFC2932535C00E4D423 /* ContentView.swift */; };
+		03896CFD2932535C00E4D423 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03896CFC2932535C00E4D423 /* ContactView.swift */; };
 		03896CFF2932535F00E4D423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03896CFE2932535F00E4D423 /* Assets.xcassets */; };
 		03896D032932535F00E4D423 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03896D022932535F00E4D423 /* Preview Assets.xcassets */; };
 		03896D0D2932536000E4D423 /* Susquehanna_NHATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03896D0C2932536000E4D423 /* Susquehanna_NHATests.swift */; };
 		03896D172932536000E4D423 /* Susquehanna_NHAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03896D162932536000E4D423 /* Susquehanna_NHAUITests.swift */; };
 		03896D192932536000E4D423 /* Susquehanna_NHAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03896D182932536000E4D423 /* Susquehanna_NHAUITestsLaunchTests.swift */; };
+		039455A52967B70E0020C353 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039455A42967B70E0020C353 /* Test.swift */; };
+		039DAEEC2964982F009254FA /* SNHAMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DAEEB2964982E009254FA /* SNHAMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031056EB295B5C8D007DF247 /* BridgeStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeStatusView.swift; sourceTree = "<group>"; };
+		031056ED295B63A0007DF247 /* BridgeStatusNetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeStatusNetworkRequest.swift; sourceTree = "<group>"; };
+		031765AC29672AC100A69310 /* PlacemarkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkDetailView.swift; sourceTree = "<group>"; };
+		032E2D50296907C7008184A2 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		034F5CAE29592B3100F2F449 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		034F5CB0295933E100F2F449 /* events.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = events.html; sourceTree = "<group>"; };
+		035CB8E729686F8E005E1E93 /* NotificationNetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationNetworkRequest.swift; sourceTree = "<group>"; };
+		035CB8E9296870CA005E1E93 /* NotificationListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationListView.swift; sourceTree = "<group>"; };
+		036BB0C529651660003171FB /* KMLNetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMLNetworkRequest.swift; sourceTree = "<group>"; };
 		03896CF72932535C00E4D423 /* Susquehanna NHA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Susquehanna NHA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03896CFA2932535C00E4D423 /* Susquehanna_NHAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Susquehanna_NHAApp.swift; sourceTree = "<group>"; };
-		03896CFC2932535C00E4D423 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03896CFC2932535C00E4D423 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		03896CFE2932535F00E4D423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03896D002932535F00E4D423 /* Susquehanna_NHA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Susquehanna_NHA.entitlements; sourceTree = "<group>"; };
 		03896D022932535F00E4D423 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +65,8 @@
 		03896D122932536000E4D423 /* Susquehanna NHAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Susquehanna NHAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03896D162932536000E4D423 /* Susquehanna_NHAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Susquehanna_NHAUITests.swift; sourceTree = "<group>"; };
 		03896D182932536000E4D423 /* Susquehanna_NHAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Susquehanna_NHAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		039455A42967B70E0020C353 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		039DAEEB2964982E009254FA /* SNHAMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNHAMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +117,19 @@
 		03896CF92932535C00E4D423 /* Susquehanna NHA */ = {
 			isa = PBXGroup;
 			children = (
+				034F5CB0295933E100F2F449 /* events.html */,
 				03896CFA2932535C00E4D423 /* Susquehanna_NHAApp.swift */,
-				03896CFC2932535C00E4D423 /* ContentView.swift */,
+				039DAEEB2964982E009254FA /* SNHAMapView.swift */,
+				031765AC29672AC100A69310 /* PlacemarkDetailView.swift */,
+				039455A42967B70E0020C353 /* Test.swift */,
+				03896CFC2932535C00E4D423 /* ContactView.swift */,
+				032E2D50296907C7008184A2 /* ReportView.swift */,
+				031056EB295B5C8D007DF247 /* BridgeStatusView.swift */,
+				035CB8E9296870CA005E1E93 /* NotificationListView.swift */,
+				031056ED295B63A0007DF247 /* BridgeStatusNetworkRequest.swift */,
+				036BB0C529651660003171FB /* KMLNetworkRequest.swift */,
+				035CB8E729686F8E005E1E93 /* NotificationNetworkRequest.swift */,
+				034F5CAE29592B3100F2F449 /* EventsView.swift */,
 				03896CFE2932535F00E4D423 /* Assets.xcassets */,
 				03896D002932535F00E4D423 /* Susquehanna_NHA.entitlements */,
 				03896D012932535F00E4D423 /* Preview Content */,
@@ -235,6 +268,7 @@
 			files = (
 				03896D032932535F00E4D423 /* Preview Assets.xcassets in Resources */,
 				03896CFF2932535F00E4D423 /* Assets.xcassets in Resources */,
+				034F5CB1295933E100F2F449 /* events.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +293,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03896CFD2932535C00E4D423 /* ContentView.swift in Sources */,
+				03896CFD2932535C00E4D423 /* ContactView.swift in Sources */,
+				039DAEEC2964982F009254FA /* SNHAMapView.swift in Sources */,
+				031765AD29672AC100A69310 /* PlacemarkDetailView.swift in Sources */,
+				035CB8E829686F8E005E1E93 /* NotificationNetworkRequest.swift in Sources */,
+				031056EC295B5C8D007DF247 /* BridgeStatusView.swift in Sources */,
+				034F5CAF29592B3100F2F449 /* EventsView.swift in Sources */,
+				036BB0C629651660003171FB /* KMLNetworkRequest.swift in Sources */,
+				032E2D51296907C7008184A2 /* ReportView.swift in Sources */,
+				039455A52967B70E0020C353 /* Test.swift in Sources */,
+				031056EE295B63A0007DF247 /* BridgeStatusNetworkRequest.swift in Sources */,
 				03896CFB2932535C00E4D423 /* Susquehanna_NHAApp.swift in Sources */,
+				035CB8EA296870CA005E1E93 /* NotificationListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +457,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Susquehanna NHA/Susquehanna_NHA.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Susquehanna NHA/Preview Content\"";
+				DEVELOPMENT_TEAM = LSCDL7ALAF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -427,11 +472,11 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.ednovak.Susquehanna-NHA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -449,8 +494,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Susquehanna NHA/Susquehanna_NHA.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Susquehanna NHA/Preview Content\"";
+				DEVELOPMENT_TEAM = LSCDL7ALAF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -463,11 +509,11 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.ednovak.Susquehanna-NHA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
