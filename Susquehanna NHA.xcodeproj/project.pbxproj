@@ -23,7 +23,6 @@
 		03896D0D2932536000E4D423 /* Susquehanna_NHATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03896D0C2932536000E4D423 /* Susquehanna_NHATests.swift */; };
 		03896D172932536000E4D423 /* Susquehanna_NHAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03896D162932536000E4D423 /* Susquehanna_NHAUITests.swift */; };
 		03896D192932536000E4D423 /* Susquehanna_NHAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03896D182932536000E4D423 /* Susquehanna_NHAUITestsLaunchTests.swift */; };
-		039455A52967B70E0020C353 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039455A42967B70E0020C353 /* Test.swift */; };
 		039DAEEC2964982F009254FA /* SNHAMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DAEEB2964982E009254FA /* SNHAMapView.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,7 +64,6 @@
 		03896D122932536000E4D423 /* Susquehanna NHAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Susquehanna NHAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03896D162932536000E4D423 /* Susquehanna_NHAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Susquehanna_NHAUITests.swift; sourceTree = "<group>"; };
 		03896D182932536000E4D423 /* Susquehanna_NHAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Susquehanna_NHAUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		039455A42967B70E0020C353 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		039DAEEB2964982E009254FA /* SNHAMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNHAMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,7 +119,6 @@
 				03896CFA2932535C00E4D423 /* Susquehanna_NHAApp.swift */,
 				039DAEEB2964982E009254FA /* SNHAMapView.swift */,
 				031765AC29672AC100A69310 /* PlacemarkDetailView.swift */,
-				039455A42967B70E0020C353 /* Test.swift */,
 				03896CFC2932535C00E4D423 /* ContactView.swift */,
 				032E2D50296907C7008184A2 /* ReportView.swift */,
 				031056EB295B5C8D007DF247 /* BridgeStatusView.swift */,
@@ -301,7 +298,6 @@
 				034F5CAF29592B3100F2F449 /* EventsView.swift in Sources */,
 				036BB0C629651660003171FB /* KMLNetworkRequest.swift in Sources */,
 				032E2D51296907C7008184A2 /* ReportView.swift in Sources */,
-				039455A52967B70E0020C353 /* Test.swift in Sources */,
 				031056EE295B63A0007DF247 /* BridgeStatusNetworkRequest.swift in Sources */,
 				03896CFB2932535C00E4D423 /* Susquehanna_NHAApp.swift in Sources */,
 				035CB8EA296870CA005E1E93 /* NotificationListView.swift in Sources */,
@@ -457,7 +453,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Susquehanna NHA/Susquehanna_NHA.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Susquehanna NHA/Preview Content\"";
 				DEVELOPMENT_TEAM = LSCDL7ALAF;
 				ENABLE_PREVIEWS = YES;
@@ -476,7 +472,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.ednovak.Susquehanna-NHA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -494,7 +490,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Susquehanna NHA/Susquehanna_NHA.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"Susquehanna NHA/Preview Content\"";
 				DEVELOPMENT_TEAM = LSCDL7ALAF;
 				ENABLE_PREVIEWS = YES;
@@ -513,7 +509,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "net.ednovak.Susquehanna-NHA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

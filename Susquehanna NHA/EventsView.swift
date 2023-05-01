@@ -26,6 +26,7 @@ struct CustomEventsWebView: UIViewRepresentable {
         let localFileURL = Bundle.main.url(forResource: "events", withExtension: "html")!
         uiView.loadFileURL(localFileURL, allowingReadAccessTo: localFileURL)
     }
+    
 
 }
 

@@ -15,12 +15,14 @@ import MapKit
 
 class KMLNetworkRequest: ObservableObject {
     
+    // The placeholder trail is necessary so that the view can be displayed before
+    // the trails are downloaded and parsed
     public static let placeHolderTrail: Trail = Trail(idx: 0, name: "Trail...", placemarks: [])
-    
-    @Published var trails: [Trail] = [placeHolderTrail]
+    @Published var trails: [Trail] = [placeHolderTrail] // this is necessary so the view can
     
     func getTrailPlacemarks() {
-        guard let url = URL(string: "https://www.google.com/maps/d/u/0/kml?mid=1ngdc8io_n7CgzEqB03f6eteAVMz0Z0y8&forcekml=1") else {fatalError("Invalid URL: https://www.google.com/maps/d/u/0/kml?mid=1ngdc8io_n7CgzEqB03f6eteAVMz0Z0y8&forcekml=1")}
+        let urlS = "https://www.google.com/maps/d/u/0/kml?mid=1ngdc8io_n7CgzEqB03f6eteAVMz0Z0y8&forcekml=1"
+        guard let url = URL(string: urlS) else {fatalError("Invalid URL: " + urlS)}
         
         let urlRequest = URLRequest(url: url)
         
@@ -45,18 +47,15 @@ class KMLNetworkRequest: ObservableObject {
                     
                     let parser = KMLPlacemarkParser(data: dataInstance)
                     if(parser.parse()){
-                        //print(parser.trails)
-                        //for i in 0...(self.trails.count-1) {
-                        //    print("i:", i)
-                        //    print("\tname:", self.trails[i].name!, "   id:", self.trails[i].id, "  idx:", self.trails[i].idx!)
-                        //}
                         
-                        // This placeholder trail is necessary in order for the Spinner
-                        // on the first page to display no points on the map and instruct the user
-                        // to select a different trail
-                        parser.parserTrails.insert(KMLNetworkRequest.placeHolderTrail, at: 0)
-                        let all = Trail(idx: parser.parserTrails.count, name: "All Trails", placemarks: parser.allPlacemarks)
-                        parser.parserTrails.append(all)
+                        // The KMLPlacementParser parses most all of the trails, but this special
+                        // "All Trails" trail (that is all the markers from all trails combined)
+                        // must be added to the parserTrails list manually, probably this should / could
+                        // be done in the KMLPlacemarkParser class.
+                        let all = Trail(idx: 0, name: "All Trails", placemarks: parser.allPlacemarks)
+                        parser.parserTrails.insert(all, at: 0)
+                        
+                        self.trails = [] // get rid of the placeholder trail
                         self.trails = parser.parserTrails
                         print("Parsed KML file successfully.")
 
